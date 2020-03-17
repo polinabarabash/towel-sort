@@ -2,7 +2,6 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
-  //if matrix exist
   if (!matrix || matrix.length == 0) {
     return [];
   }
